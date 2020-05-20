@@ -1,0 +1,66 @@
+html, body, header, nav, h1, a,
+ul, li, strong, main, button, i,
+section, img, div, h2, p, form,
+fieldset, label, input, textarea,
+span, article, footer, time, small {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font: inherit;
+  color: inherit;
+  text-align: inherit;
+  text-decoration: inherit;
+  vertical-align: inherit;
+  box-sizing: inherit;
+  background: transparent;
+}
+
+
+#root{
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+    
+}
+
+#board{
+padding: 60px;
+
+}
+
+.row{
+    background-color: gray;
+    width: 200px;
+    height: 30px;
+    display: flex;
+}
+.unexplored{
+    color: white;
+    width: 20px;
+    height: 20px;
+    border: 2px solid gray;
+    border-style: outset;
+    background-color: lightgray;
+}
+
+.tile{
+    /* border: 2px solid gray; */
+    height: 20px;
+    padding: 2px;
+    width: 20px;
+    
+}
+
+.explored{
+    color: white;
+    width: 20px;
+    height: 20px;
+    border: 2px solid gray;
+    border-style: inset;
+    background-color: grey;
+    color:black;
+
+}
+
+
