@@ -17,15 +17,32 @@ span, article, footer, time, small {
 }
 
 
+h1{
+    font-size: 75px;
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+    
+}
+h2{
+    font-size: 12åpx;
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+    
+}
+
+
 #root{
     display: flex;
     justify-content: center;
-    padding: 50px;
+  
     
 }
 
 #board{
-padding: 60px;
+padding: 50px;
+position: fixed;
 
 }
 
@@ -64,3 +81,6 @@ padding: 60px;
 }
 
 
+h1 {
+
+}

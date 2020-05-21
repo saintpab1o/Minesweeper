@@ -39,7 +39,7 @@ class Game extends React.Component{
 
         return (
             <>
-            <h1> Game!</h1>
+          
             <Board board={this.state.board} updateGame={this.updateGame} />
             </>
         )
